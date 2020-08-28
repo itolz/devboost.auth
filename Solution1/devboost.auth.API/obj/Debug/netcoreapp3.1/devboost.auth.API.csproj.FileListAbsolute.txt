@@ -36,8 +36,12 @@ C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\bin\Debug\netcoreapp3
 C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\bin\Debug\netcoreapp3.1\devboost.auth.API.runtimeconfig.dev.json
 C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\bin\Debug\netcoreapp3.1\devboost.auth.API.dll
 C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\bin\Debug\netcoreapp3.1\devboost.auth.API.pdb
-C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\obj\Debug\netcoreapp3.1\devboost.auth.API.csproj.CoreCompileInputs.cache
-C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\obj\Debug\netcoreapp3.1\devboost.auth.API.MvcApplicationPartsAssemblyInfo.cache
 C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\obj\Debug\netcoreapp3.1\devboost.auth.API.dll
 C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\obj\Debug\netcoreapp3.1\devboost.auth.API.pdb
 C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\obj\Debug\netcoreapp3.1\devboost.auth.API.genruntimeconfig.cache
+C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\obj\Debug\netcoreapp3.1\devboost.auth.API.csproj.CoreCompileInputs.cache
+C:\projetos\devboost.Itau\auth\Solution1\devboost.auth.API\obj\Debug\netcoreapp3.1\devboost.auth.API.MvcApplicationPartsAssemblyInfo.cache
