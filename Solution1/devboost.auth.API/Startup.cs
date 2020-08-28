@@ -2,10 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using devboost.auth.API.Contract;
+using devboost.auth.API.Model;
+using devboost.auth.API.Model.dbContext;
+using devboost.auth.API.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,6 +31,12 @@ namespace devboost.auth.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<JWTSettings>();
+            services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>(); 
+
+            services.AddDbContext<AuthDBContext>(opt => opt.UseInMemoryDatabase("AuthDB"));
+
             services.AddControllers();
         }
 
