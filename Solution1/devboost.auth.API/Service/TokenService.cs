@@ -53,16 +53,6 @@ namespace devboost.auth.API.Service
                 }
             );
 
-            //foreach (var role in user.Roles)
-            //{
-            //    identity.AddClaim(new Claim(ClaimTypes.Role, role));
-            //}
-
-            //foreach (var policy in user.Permissions)
-            //{
-            //    identity.AddClaim(new Claim("permissions", policy));
-            //}
-
             return identity;
         }
     }
